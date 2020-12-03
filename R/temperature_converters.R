@@ -19,8 +19,7 @@ fahrenheit_to_celcius <- function(temp_fahrenheit) {
 # Temperature Conversion function from celcius to kelvin
 
 celcius_to_kelvin <- function(temp_celcius) {
-  temp_kelvin <- temp_celcius + 273
-  return(temp_kelvin)
+  return(temp_celcius + 273)
 }
 
 # Temperature Conversion function from fahrenheit to kelvin
