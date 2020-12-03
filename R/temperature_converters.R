@@ -1,36 +1,33 @@
 
-#' `farienheight_to_celcius` does something.
+#' `fahrenheit_to_celcius` Converts a temperature in fahrenheit to celcius
 #' @title Temperature Converters
 #' @description Converts temperature
 #' @param temp_fahrenheit A temperature in fahrenheit
 #' @return Returns the value of the temperature in Celcius
 #' @examples
+#' fahrenheit_to_celcius(5)
 #'
-#' farienheight_to_celcius(5) # returns -15
 #'
-#' @export
-temp_fahrenheit <- 5
+# Temperature Conversion function from fahrenheit to celcius
 
-farienheight_to_celcius <- function(temp_fahrenheit) {
+fahrenheitt_to_celcius <- function(temp_fahrenheit) {
   temp_celcius <- ((temp_fahrenheit - 32) * (5/9))
   return(temp_celcius)
 }
 
-farienheight_to_celcius(temp_fahrenheit)
-
+# Temperature Conversion function from celcius to kelvin
 
 celcius_to_kelvin <- function(temp_celcius) {
   temp_kelvin <- temp_celcius + 273
   return(temp_kelvin)
 }
 
-celcius_to_kelvin(temp_celcius = -15)
+# Temperature Conversion function from fahrenheit to kelvin
 
-farienheight_to_kelvin <- function(temp_fahrenheit) {
+fahrenheit_to_kelvin <- function(temp_fahrenheit) {
   temp_kelvin <- ((temp_fahrenheit - 32) * (5/9)) + 273
   return(temp_kelvin)
 }
 
 
-farienheight_to_kelvin(temp_fahrenheit)
 
