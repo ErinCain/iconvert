@@ -1,16 +1,18 @@
 Package: iconvert
-Title: What the Package Does (One Line, Title Case)
+Title: This Package is a Practice Package that Contains Conversion Functions
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Erin",
+           family = "Cain",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "ecain@flowwest.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: This is a package that I created to understand how test driven development works and to help me understand how to build packages. I will add some tests and some conversion functions that pass thoes tests. 
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat
